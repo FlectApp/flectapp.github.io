@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flect - Design Toolkit for Professionals</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-links">
+      <div class="nav-menu">
+        <a href="#hero" data-i18n="nav.home">Home</a>
+        <a href="#features" data-i18n="nav.features">Features</a>
+        <a href="#how-it-works" data-i18n="nav.howItWorks">How It Works</a>
+        <a href="#supported-browsers" data-i18n="nav.browsers">Supported Browsers</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <div class="language-switcher">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ru">RU</button>
+        </div>
+      </div>
+      <a href="#cta" class="btn primary nav-cta" data-i18n="nav.download">Download Flect</a>
+    </div>
+    <button class="hamburger">
+      <i class="fas fa-bars"></i>
+    </button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero animate">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h1 data-i18n="hero.title">Your Ultimate Design Toolkit</h1>
+        <p class="subtitle" data-i18n="hero.subtitle">Flect — сервис, созданный для дизайнеров, которым важно не тратить время на мелочи. Всё нужное собрано в одном расширении.</p>
+        <div class="cta-buttons">
+          <a href="https://drive.google.com/uc?export=download&id=1FoAyNhl-3SsKTPxlFmuyU_1jJf72-ZcF" class="btn primary">
+            <i class="fas fa-download"></i> <span data-i18n="hero.downloadFlect">Download Flect</span>
+          </a>
+          <a href="https://www.tbank.ru/cf/36rCjiC11Fq" class="btn secondary">
+            <i class="fas fa-heart"></i> <span data-i18n="hero.supportProject">Support Project</span>
+          </a>
+          <a href="https://t.me/FlectApp" class="btn secondary">
+            <i class="fas fa-paper-plane"></i> <span data-i18n="hero.joinTelegram">Join our Telegram</span>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="img/hero-screenshot.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 data-i18n="features.title">What Flect Can Do (Version 1.0)</h2>
+      <p class="section-subtitle" data-i18n="features.subtitle">Everything you need for your design workflow</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="icon">
+            <i class="fas fa-font"></i>
+          </div>
+          <h3 data-i18n="features.fontDetector.title">Font Detector</h3>
+          <p data-i18n="features.fontDetector.description">Identify any font on any website with detailed typography information.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">
+            <i class="fas fa-ruler-combined"></i>
+          </div>
+          <h3 data-i18n="features.smartRuler.title">Smart Ruler</h3>
+          <p data-i18n="features.smartRuler.description">Measure distances between elements with pixel-perfect precision.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">
+            <i class="fas fa-copy"></i>
+          </div>
+          <h3 data-i18n="features.styleCopier.title">Style Copier</h3>
+          <p data-i18n="features.styleCopier.description">Copy text easily, even if it's protected from regular selection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="how-it-works animate">
+    <div class="container">
+      <h2 data-i18n="howItWorks.title">Installation Guide</h2>
+      <p class="section-subtitle" data-i18n="howItWorks.subtitle">Get started in just a few clicks</p>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3 data-i18n="howItWorks.step1.title">Install the Extension</h3>
+            <p data-i18n="howItWorks.step1.description">Add Flect to your browser by enabling Developer Mode and loading the extension. Save the extension folder in a secure location, as deleting it will cause the extension to stop working.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3 data-i18n="howItWorks.step2.title">Activate the Tool</h3>
+            <p data-i18n="howItWorks.step2.description">Click the Flect icon in your toolbar and select the tool you need.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3 data-i18n="howItWorks.step3.title">Start Designing</h3>
+            <p data-i18n="howItWorks.step3.description">Use the intuitive interface to inspect, measure and copy design elements.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Supported Browsers Section -->
+  <section id="supported-browsers" class="supported-browsers animate">
+    <div class="container">
+      <h2 data-i18n="browsers.title">Supported Browsers</h2>
+      <p class="section-subtitle" data-i18n="browsers.subtitle">Flect works seamlessly with your favorite browsers</p>
+      <div class="browser-grid">
+        <div class="browser-row">
+          <div class="browser-card">
+            <img src="img/chrome-icon.png" alt="Chrome" class="browser-icon">
+            <h3>Chrome</h3>
+            <p>Version 88+</p>
+          </div>
+          <div class="browser-card">
+            <img src="img/edge-icon.png" alt="Edge" class="browser-icon">
+            <h3>Edge</h3>
+            <p>Version 88+</p>
+          </div>
+          <div class="browser-card">
+            <img src="img/yandex-icon.png" alt="Yandex" class="browser-icon">
+            <h3>Yandex Browser</h3>
+            <p>Version 21.2+</p>
+          </div>
+        </div>
+        <div class="browser-row">
+          <div class="browser-card">
+            <img src="img/brave-icon.png" alt="Brave" class="browser-icon">
+            <h3>Brave</h3>
+            <p>Version 3.6+</p>
+          </div>
+          <div class="browser-card">
+            <img src="img/vivaldi-icon.png" alt="Vivaldi" class="browser-icon">
+            <h3>Vivaldi</h3>
+            <p>Version 3.6+</p>
+          </div>
+          <div class="browser-card coming-soon">
+            <img src="img/firefox-icon.png" alt="Firefox" class="browser-icon">
+            <h3>Firefox</h3>
+            <p>Version 109+ (In Development)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq animate">
+    <div class="container">
+      <h2 data-i18n="faq.title">Frequently Asked Questions</h2>
+      <p class="section-subtitle" data-i18n="faq.subtitle">Find answers to common questions about Flect</p>
+      <div class="faq-items">
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q1.title">What is Flect and what is it used for?</h3>
+          <p class="faq-answer" data-i18n="faq.q1.description">Flect is a free, open-source browser extension designed specifically for designers. It provides a set of useful tools directly in your browser, helping to save time and simplify workflows.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q2.title">How much does Flect cost?</h3>
+          <p class="faq-answer" data-i18n="faq.q2.description">Flect is completely free for all users!</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q3.title">Do I need to register to use Flect?</h3>
+          <p class="faq-answer" data-i18n="faq.q3.description">No, registration is not required. Just install the extension and start using it.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q4.title">Is Flect safe for my data?</h3>
+          <p class="faq-answer" data-i18n="faq.q4.description">Yes, Flect is designed with user privacy in mind. We do not collect personal data without your knowledge. Since Flect's code is open-source, you can verify its safety yourself.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q5.title">How to install Flect?</h3>
+          <p class="faq-answer" data-i18n="faq.q5.description">Find installation instructions for different browsers <a href="#" class="faq-link">here</a>.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q6.title">How to activate Flect tools?</h3>
+          <p class="faq-answer" data-i18n="faq.q6.description">Tools are typically activated by clicking the Flect icon in the browser's extensions toolbar.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q7.title">Flect isn't working, what should I do?</h3>
+          <p class="faq-answer" data-i18n="faq.q7.description">Ensure your browser meets the minimum requirements (see <a href="#supported-browsers" class="faq-link">supported browsers</a>). If the issue persists, please report it to us <a href="https://t.me/MarselcreativeManager" class="faq-link">here</a>.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q8.title">How to use the font detector?</h3>
+          <p class="faq-answer" data-i18n="faq.q8.description">Activate the tool, hover over text on a page — Flect will display the font name and its characteristics.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q9.title">How to use the ruler for measurements?</h3>
+          <p class="faq-answer" data-i18n="faq.q9.description">Activate the tool, select the mode, hold the right mouse button to measure the distance between any two points on the screen, or switch to automatic mode.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q10.title">How to copy protected content?</h3>
+          <p class="faq-answer" data-i18n="faq.q10.description">Activate the tool, then try to select and copy the desired text.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q11.title">Will new features be added?</h3>
+          <p class="faq-answer" data-i18n="faq.q11.description">Yes, we are actively working on Flect's development and plan to add new useful tools in future updates. Stay tuned for our news! You can also send your suggestions to our manager <a href="https://t.me/MarselcreativeManager" class="faq-link">here</a>.</p>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-question" data-i18n="faq.q12.title">How can I suggest a new feature or report a bug?</h3>
+          <p class="faq-answer" data-i18n="faq.q12.description">If you have questions or issues, you can contact our manager <a href="https://t.me/MarselcreativeManager" class="faq-link">here</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="cta animate">
+    <div class="container">
+      <h2 data-i18n="cta.title">Ready to Elevate Your Design Workflow?</h2>
+      <p data-i18n="cta.description">Join thousands of designers using Flect to save time and work more efficiently.</p>
+      <a href="https://drive.google.com/uc?export=download&id=1FoAyNhl-3SsKTPxlFmuyU_1jJf72-ZcF" class="btn primary">
+        <i class="fas fa-download"></i> <span data-i18n="cta.button">Download Flect</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2025 Flect. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="terms.html" data-i18n="footer.terms">Terms of Service</a>
+          <a href="cookie.html" data-i18n="footer.cookie">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
